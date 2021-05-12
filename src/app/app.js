@@ -23,6 +23,7 @@ export default class App extends Component{
                 <Nick personObj={personObj} />
 
                 <ChildrenPropsPractice />
+                    {/* the child component will handle the display of these components using {props.children} */}
                     <h3> Hello from children props of Dummy</h3>
                     <h3> Hello from children props of Dummy</h3>
                     <h3> Hello from children props of Dummy</h3>
